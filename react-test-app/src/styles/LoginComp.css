@@ -1,0 +1,11 @@
+.LoginView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.LogInForm {
+    display: flex;
+    flex-direction: column;
+}
