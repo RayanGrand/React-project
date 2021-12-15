@@ -24,7 +24,8 @@ function Banner() {
                         <Button color="inherit">News</Button>
                     </div>
                     <div>
-                        <Button color="inherit" className="LoginIcon">Login</Button>
+                        <Button color="inherit" className="LoginIcon" href="http://localhost:3000/register">Register</Button>
+                        <Button color="inherit" className="LoginIcon" href="http://localhost:3000/login">Login</Button>
                     </div>
                 </Toolbar>
             </AppBar>

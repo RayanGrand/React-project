@@ -1,4 +1,4 @@
-import '../styles/Home.css'
+import '../styles/LoginComp.css'
 import LoginComp from '../components/LoginComp'
 
 function Login() {
