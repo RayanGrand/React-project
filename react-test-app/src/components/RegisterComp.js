@@ -8,7 +8,7 @@ import '../styles/LoginComp.css';
 
 const style = {
     display: 'flex',
-    bgcolor: '#A9A9A9',
+    bgcolor: '#03a9f4',
     p: 4,
     borderRadius: '15px',
     textAlign: 'center',

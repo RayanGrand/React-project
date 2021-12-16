@@ -1,10 +1,7 @@
-import { useContext } from 'react';
-
 export async function Login(email, password) {
-    console.log(email)
-    console.log(password)
+    console.log("Login")
 }
 
 export async function Register(eamil, username, password, firstName, lastName) {
-    console.log("ouai")
+    console.log("Register")
 }

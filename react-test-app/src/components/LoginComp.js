@@ -6,9 +6,12 @@ import Typography from '@mui/material/Typography';
 import {Login} from '../functions/LoginFunc';
 import '../styles/LoginComp.css';
 
+import { useContext } from 'react';
+import { userContext } from '../App.js'
+
 const style = {
     display: 'flex',
-    bgcolor: '#A9A9A9',
+    bgcolor: '#03a9f4',
     p: 4,
     borderRadius: '15px',
     textAlign: 'center',
@@ -29,6 +32,8 @@ function LoginComp() {
     const handlePassWordInputChange = event => {
         setPassWord(event.target.value);
     };
+
+    console.log(useContext(userContext))
 
     return (
         <Box component="div" sx={style}>

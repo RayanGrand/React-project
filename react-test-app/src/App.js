@@ -5,12 +5,13 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import { createContext } from 'react';
 
-const userContext = createContext('null');
+export const userContext = createContext(null);
 
 function App() {
+    const token = '';
     return (
         <Router>
-            <userContext.Provider value='null'>
+            <userContext.Provider value={token}>
                 <Routes>
                     <Route path="/" element={<Home/>} />
                     <Route path="/login" element={<Login/>}/>
